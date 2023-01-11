@@ -1,0 +1,59 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("table.jpg");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+/* 3. Make sure that the two buttons have some space between
+each other when they are rendered out vertically */
+
+@keyframes glowing {
+    0% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+    50% {
+      background-color: #49e819;
+      box-shadow: 0 0 20px #49e819;
+    }
+    100% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+}
+
+button {
+    color: #016f32;
+    width: 200px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: goldenrod;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+
+    animation: glowing 1300ms infinite;
+}
+
